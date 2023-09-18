@@ -25,6 +25,10 @@ html,body{
     /* height: auto; */
 }
 
+/* .globeImages{
+    display: none;
+} */
+
 .bikeContainer{
     display:flex;
     flex-direction: column;

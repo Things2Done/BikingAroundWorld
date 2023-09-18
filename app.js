@@ -23,8 +23,25 @@ button.addEventListener("click", function(){
 )
 
 
-window.addEventListener("scroll",fucntion(){
-     i=0,i=globeImages.length, i= i++){
-    gallery.appendChild(globeImages[i])
-}}
-)
+// window.addEventListener("scroll",fucntion(){
+//      for(i=0; i < globeImages.length; i= i++){
+//     gallery.appendChild(globeImages[i])
+// }}
+// )
+
+// window.addEventListener('scroll', ()=> {
+//     console.log(window.scrollY, document.body.scrollHeight, window.innerWidth, window.innerHeight, window.scrollY *(window.innerWidth/window.innerHeight));
+//     // let boxElt = document.getElementById("biker");
+//     biker.style.left =window.scrollY*(window.innerWidth/(document.body.clientHeight-window.innerHeight)) +'px';
+//   })
+//   window.addEventListener('load', () => {
+//     console.log("page load");
+//     let biker = document.getElementById('box');
+//     biker.addEventListener('mouseenter', ()=> {
+//       biker.style.bottom = "30px";
+//     })
+//     biker.addEventListener('mouseleave', ()=> {
+//       biker.style.bottom = "0px";
+//     })
+//   })
+  
