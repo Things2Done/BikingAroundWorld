@@ -1,0 +1,68 @@
+
+html,body{
+    background-color:beige;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 60px;
+    background-color: black;
+}
+
+h1{
+    font-family: fantasy;
+    font-style: oblique;
+    color: #353de3;
+}
+
+#bikebutton{
+    width: 10vw;
+    height:20vh;
+
+}
+
+		#container {
+			position: relative;
+			width: 600px;
+			height: 600px;
+			margin: 0 auto;
+			border: 1px solid #ccc;
+            background-color: skyblue;
+		}
+		#globe {
+			width: 500px;
+			height: 500px;
+			margin: 50px; /* same as #biker */
+			/* 600 + 100 * 2 = 800 */
+		}
+		#biker-container {
+			position: absolute;
+			left: 0;
+			top: 0;
+			width: 600px; /* same as #container */
+			height: 600px;
+			text-align: center;
+            display: none;
+		}
+		#biker {
+			width: 70px;
+			height: 70px;
+		}
+		#empty-container {
+			height: 1000px;
+		}
+
+      .text{
+       display: flex;
+       flex-direction: column;
+       align-items: center; 
+       font-family: fantasy;
+       font-style: oblique;
+       color: #353de3;
+    }
+
+    .spin {
+        animation: spin 1s linear infinite;
+    }
+    
+     @keyframes spin {
+        0% { transform: rotate(0deg); }
+        100% { transform: rotate(360deg); }
+    }
